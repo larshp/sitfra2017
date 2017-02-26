@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>sitfra2017</title>
+
+		<link rel="stylesheet" href="ext/font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="ext/octicons/octicons.css">
+		<link rel="stylesheet" href="ext/prism/prism.css" />
+		<link rel="stylesheet" href="ext/reveal.js-3.3.0/css/reveal.css">
+		<link rel="stylesheet" href="theme.css">
+		<link rel="stylesheet" href="squares.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="ext/reveal.js-3.3.0/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'ext/reveal.js-3.3.0/css/print/pdf.css' : 'ext/reveal.js-3.3.0/css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+
+<div class="reveal">
+<div class="slides">
+
+<section>
+<pre class="plain">
+                                                          bbbbbbbb
+                                                          b::::::b
+                                                          b::::::b
+                                                          b::::::b
+                                                          b::::::b
+wwwwwww           wwwww           wwwwwww eeeeeeeeeeee    b::::::bbbbbbbb
+ w:::::w         w:::::w         w:::::wee::::::::::::ee  b::::::::::::::bb
+  w:::::w       w:::::::w       w:::::we::::::eeeee:::::eeb::::::::::::::::b
+   w:::::w     w:::::::::w     w:::::we::::::e     e:::::eb:::::bbbbb:::::::b
+    w:::::w   w:::::w:::::w   w:::::w e:::::::eeeee::::::eb:::::b    b::::::b
+     w:::::w w:::::w w:::::w w:::::w  e:::::::::::::::::e b:::::b     b:::::b
+      w:::::w:::::w   w:::::w:::::w   e::::::eeeeeeeeeee  b:::::b     b:::::b
+       w:::::::::w     w:::::::::w    e:::::::e           b:::::b     b:::::b
+        w:::::::w       w:::::::w     e::::::::e          b:::::bbbbbb::::::b
+         w:::::w         w:::::w       e::::::::eeeeeeee  b::::::::::::::::b
+          w:::w           w:::w         ee:::::::::::::e  b:::::::::::::::b
+           www             www            eeeeeeeeeeeeee  bbbbbbbbbbbbbbbb
+</pre>
+<br>
+<b>#sitfra 2017</b>
+</section>
+
+<section>
+<table>
+<tr>
+<td><a href="https://twitter.com/LarsHvam"><i class="fa fa-twitter fa-5x plain"></i></a></td>
+<td valign="middle"><a href="https://twitter.com/LarsHvam">@LarsHvam</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/larshp"><i class="fa fa-github fa-5x plain"></i></a></td>
+<td><a href="https://github.com/larshp">larshp</a></td>
+</tr>
+</table>
+</section>
+
+<section>
+<h3>hello</h3>
+world
+</section>
+
+<section>
+<h2>#ABAPisNotDead</h2>
+<i class="fa fa-sun-o plain"></i>
+<br>
+<table>
+<tr><td>
+<h3>Slides</h3></td><td>
+<a href="https://larshp.github.io/sitfra2017">https://larshp.github.io/sitfra2017</a>
+</td></tr>
+<tr><td>
+<h3>Twitter</h3></td><td>
+<a href="https://twitter.com/LarsHvam">@LarsHvam</a>
+</td></tr>
+</table>
+</section>
+</div>
+</div>
+
+</div>
+</div>
+
+<script src="squares.js"></script>
+
+<script src="ext/reveal.js-3.3.0/lib/js/head.min.js"></script>
+<script src="ext/reveal.js-3.3.0/js/reveal.js"></script>
+
+<script>
+// More info https://github.com/hakimel/reveal.js#configuration
+/*global Reveal squaresSlideReady squaresSlideChanged*/
+Reveal.initialize({
+	history: true,
+	slideNumber: true,
+	// More info https://github.com/hakimel/reveal.js#dependencies
+	dependencies: [
+		{ src: 'ext/reveal.js-3.3.0/plugin/notes/notes.js', async: true },
+	]
+});
+Reveal.addEventListener('ready', squaresSlideReady);
+Reveal.addEventListener('slidechanged', squaresSlideChanged);
+</script>
+<script src="ext/prism/prism.js"></script>
+
+</body>
+</html>
